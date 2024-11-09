@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calcula</title>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" class="pantalla" disabled>
+        <div class="botones">
+            <button onclick="limpiar()" style="color: white;">C</button>
+            <button class="delete" onclick="retroceso()" style="color: white;">←</button>
+            <button class="operador" onclick="agregar('/')" style="color: white;">/</button>
+            <button class="operador" onclick="agregar('*')" style="color: white;">×</button>
+            <button onclick="agregar('7')" style="color: white;">7</button>
+            <button onclick="agregar('8')" style="color: white;">8</button>
+            <button onclick="agregar('9')" style="color: white;">9</button>
+            <button class="operador" onclick="agregar('-')" style="color: white;">-</button>
+            <button onclick="agregar('4')" style="color: white;">4</button>
+            <button onclick="agregar('5')" style="color: white;">5</button>
+            <button onclick="agregar('6')" style="color: white;">6</button>
+            <button class="operador" onclick="agregar('+')" style="color: white;">+</button>
+            <button onclick="agregar('1')" style="color: white;">1</button>
+            <button onclick="agregar('2')" style="color: white;">2</button>
+            <button onclick="agregar('3')" style="color: white;">3</button>
+            <button class="operador" onclick="raizCuadrada()" style="color: white;">√</button>
+            <button onclick="calcular()" class="igual">=</button>
+            <button onclick="agregar('0')" style="color: white;">0</button>
+            <button onclick="agregar('.')" style="color: white;">.</button>
+        </div>
+    </div>
+    
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
